@@ -9,11 +9,11 @@ $mail->Host = "smtp.gmail.com";
 $mail->Port = 465; // or 587
 $mail->IsHTML(true);
 $mail->Username = "seekdataleakplataform.info@gmail.com";
-$mail->Password = "l8thesisISCTE2015";
+$mail->Password = "";
 $mail->SetFrom("seekdataleakplataform.info@gmail.com");
 $mail->Subject = "Test";
 $mail->Body = "hello";
-$mail->AddAddress("sousa29@msn.com");
+$mail->AddAddress(");
 if(!$mail->Send())
 {
 	echo "Mailer Error: " . $mail->ErrorInfo;
